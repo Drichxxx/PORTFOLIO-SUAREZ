@@ -1,1 +1,71 @@
-https://github.com/Drichxxx
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aldrich Suarez| Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<header class="header">
+  <nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#contact">Contact Me</a>
+  </nav>
+</header>
+
+<section class="home" id="home">
+  <div class="home-content">
+    <h1>Hi, it's me</h1>
+    <h2>Aldrich Suarez</h2>
+    <p>A passionate BSIS student from West Visayas State University - Pototan Campus.</p>
+  </div>
+  <div class="home-image">
+    <div class="glow-circle">
+      <img src="/storage/emulated/0/SHAREit/pictures/IMG_20250423_174723_897~2.jpg" alt="Aldrich Suarez">
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about" style="display: none;">
+  <h2>About Me</h2>
+  <p>
+    Hello! I'm Aldrich Suarez currently studying Bachelor of Science in Information System at WVSU-PC. I'm driven by curiosity and creativity, with a growing passion for building user-friendly digital solutions. I enjoy exploring front-end development, user interface design, and constantly seek to improve my skills to create more impactful and accessible experiences.
+  </p>
+</section>
+
+<section class="contact" id="contact" style="display: none;">
+  <h2>Contact Me</h2>
+  <p>If you'd like to connect with me or work together, feel free to reach out through any of the channels below or send me a message directly.</p>
+
+  <div class="contact-details">
+    <p><strong>Email:</strong> aldrichsuarez0@gmail.com</p>
+    <p><strong>Phone:</strong> 09634378503</p>
+    <p><strong>Facebook:</strong> <a href="https://facebook.com/example" target="_blank">facebook.com/example</a></p>
+    <p><strong>WhatsApp:</strong> 09634378503</p>
+    <p><strong>Instagram:</strong> <a href="https://instagram.com/example" target="_blank">@example</a></p>
+    <p><strong>TikTok:</strong> <a href="https://tiktok.com/@example" target="_blank">@example</a></p>
+  </div>
+
+  <!-- Get in Touch Form -->
+  <h3>Get in Touch With Me</h3>
+  <form id="contact-form">
+    <input type="text" name="fullname" placeholder="Full Name" required />
+    <input type="text" name="address" placeholder="Address" required />
+    <input type="email" name="email" placeholder="Email" required />
+    <input type="tel" name="contact" placeholder="Contact Number" required />
+
+    <!-- Message box -->
+    <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+
+    <!-- Submit button -->
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
